@@ -50,6 +50,16 @@
 				</a>
 			</div>
         </footer>
+        <script>
+  		document.getElementsByClassName("hbgrMenu")[0].onclick=()=>{
+			document.getElementsByClassName("hbgrMenu")[0].classList.toggle('active');
+    		document.getElementsByClassName("mobileNav")[0].classList.toggle("open");
+			setTimeout(() => {
+				document.getElementsByClassName("mobileNav")[0].style.height="0px";
+				document.getElementsByClassName("mobileNav open")[0].style.height="calc(100vh - 100px)";
+    		}, 1);
+		}
+        </script>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
