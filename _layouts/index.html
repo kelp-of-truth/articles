@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" id="css-theme" href="./theme-system.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <span class="title">Article</span>
+      <div id="theme">
+        <div id="selected">
+          <button><img src="./system.svg"><span>System</span></button>
+        </div>
+        <div id="option">
+          <button id="system"><img src="system.svg" alt=""><span>System</span></button>
+          <button id="light"><img src="light.svg" alt=""><span>Light</span></button>
+          <button id="dark"><img src="./dark.svg" alt=""><span>Dark</span></button>
+        </div>
+      </div>
+    </header>
+    <article>
+      <h1>Head1</h1>
+      <h2>Head2</h2>
+      <h3>Head3</h3>
+      <p>Paragraph</p>
+      <a href="https://example.com">https://example.com</a>
+    </article>
+    <footer>
+      <p>
+        Email address :
+        <a href="mailto:kelpoftruth@gmail.com">kelpoftruth@gmail.com</a><br />
+        Copyright © 2023 KelpOfTruth All Rights Reserved.
+      </p>
+  </body>
+  <script>
+    // 0: System 1: Light 2: Dark
+    let theme=0;
+    const ls=localStorage.getItem("theme");
+    function aplyTheme(n){
+      theme=n;
+      localStorage.setItem("theme",theme);
+      const selected=document.querySelector("#theme #selected");
+      if(theme===0){
+        document.querySelector("#css-theme").rel="./theme-system.css";
+        selected.querySelector("img").src="./system.svg";
+        selected.querySelector("span").innerHTML="System";
+        
+      }else
+      if(theme===1){
+        document.querySelector("#css-theme").rel="./theme-light.css";
+        selected.querySelector("img").src="./light.svg";
+        selected.querySelector("span").innerHTML="Light";
+
+      }else
+      if(theme===2){
+        document.querySelector("#css-theme").rel="./theme-dark,css";
+        selected.querySelector("img").src="./dark.svg";
+        selected.querySelector("span").innerHTML="Dark";
+        
+      }
+    }
+    if(ls!==null){
+      theme=Number(ls);
+      aplyTheme(theme);
+    }else{
+      aplyTheme(0);
+    }
+    console.log(theme);
+    document.querySelector("#theme #system").addEventListener("click",()=>{aplyTheme(0)});
+    document.querySelector("#theme #light").addEventListener("click",()=>{aplyTheme(1)});
+    document.querySelector("#theme #dark").addEventListener("click",()=>{aplyTheme(2)});
+  </script>
+</html>
