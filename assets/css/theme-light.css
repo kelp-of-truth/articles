@@ -1,0 +1,19 @@
+header {
+  background-color: #bfbfbf;
+  color: #000;
+  border-color: #e2e2e2;
+}
+article {
+  background-color: #fff;
+  color: #080808;
+}
+footer {
+  background-color: #dbdbdb;
+  color: #1a1a1a;
+}
+footer a {
+  color: #525252;
+}
+article a {
+  color: #1b1b1b;
+}
