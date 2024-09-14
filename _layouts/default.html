@@ -46,19 +46,19 @@
       localStorage.setItem("theme",theme);
       const selected=document.querySelector("#theme #selected");
       if(theme===0){
-        document.querySelector("#css-theme").rel="/article/assets/css/theme-system.css";
+        document.querySelector("#css-theme").href="/article/assets/css/theme-system.css";
         selected.querySelector("img").src="/article/assets/img/system.svg";
         selected.querySelector("span").innerHTML="System";
         
       }else
       if(theme===1){
-        document.querySelector("#css-theme").rel="/article/assets/css/theme-light.css";
+        document.querySelector("#css-theme").href="/article/assets/css/theme-light.css";
         selected.querySelector("img").src="/article/assets/img/light.svg";
         selected.querySelector("span").innerHTML="Light";
 
       }else
       if(theme===2){
-        document.querySelector("#css-theme").rel="/article/assets/css/theme-dark,css";
+        document.querySelector("#css-theme").href="/article/assets/css/theme-dark.css";
         selected.querySelector("img").src="/article/assets/img/dark.svg";
         selected.querySelector("span").innerHTML="Dark";
         
