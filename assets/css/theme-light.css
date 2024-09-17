@@ -18,6 +18,10 @@ article a {
   color: #1b1b1b;
 }
 
+code {
+  background-color: #f5f5f5 !important;
+  border-radius: 0.5rem !important;
+}
 pre code.hljs{display:block;overflow-x:auto;padding:1em}code.hljs{padding:3px 5px}/*!
   Theme: GitHub
   Description: Light theme as seen on github.com
