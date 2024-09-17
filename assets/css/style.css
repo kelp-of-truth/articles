@@ -57,6 +57,8 @@ article h3 {
 }
 #theme div{
   border-radius: 0.2rem;
+  background-color: #bfbfbf;
+  position: fixed;
   display: flex;
   flex-wrap: wrap;
   width: 7.3rem;
