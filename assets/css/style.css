@@ -25,6 +25,7 @@ article {
   padding-right: 1.5rem;
   min-height: 100vh;
   margin-top: 0;
+  display: inline-block;
 }
 footer {
   height: fit-content;
