@@ -18,6 +18,11 @@ article a {
   color: #e2e2e2;
 }
 
+code {
+  background-color: #212121 !important;
+  border-radius: 0.5rem !important;
+}
+
 
 pre code.hljs{display:block;overflow-x:auto;padding:1em}code.hljs{padding:3px 5px}/*!
   Theme: GitHub Dark
