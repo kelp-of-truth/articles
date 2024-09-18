@@ -58,6 +58,10 @@ article h3 {
 article code{
   font-family: Inconsolata;
 }
+article table{
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
 
 #theme {
   position: relative;
