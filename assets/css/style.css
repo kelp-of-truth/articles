@@ -1,8 +1,19 @@
+@font-face{
+  font-family: NotoSansJP;
+  src: url("/article/assets/fonts/NotoSans-Regular.ttf");
+}
+@font-face{
+  font-family: Inconsolata;
+  src: url("/article/assets/fonts/Inconsolata-Regular.ttf");
+}
 html,
 body {
   padding: 0px;
   margin: 0;
   font-size: 16px;
+}
+html,body,input,button,textarea,select{
+  font-family: NotoSansJP;
 }
 header {
   margin: 0;
@@ -43,6 +54,9 @@ article h2 {
 }
 article h3 {
   font-size: 1rem;
+}
+article code{
+  font-family: Inconsolata;
 }
 
 #theme {
