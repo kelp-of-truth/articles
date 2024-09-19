@@ -53,7 +53,11 @@ _Italic_
 
 ---
 
-> Block Quote
+> Block quote
+
+```md
+> Block quote
+```
 
 ---
 
