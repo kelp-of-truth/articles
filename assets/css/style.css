@@ -85,6 +85,7 @@ article blockquote::after{
   border-radius: calc(infinity * 1px);
 }
 #theme {
+  z-index: 99999;
   position: relative;
   display: inline-block;
   vertical-align: middle;
