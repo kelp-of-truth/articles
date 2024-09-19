@@ -72,6 +72,7 @@ article blockquote{
   padding-left: 1.5rem;
   position: relative;
   margin-top: 1rem;
+  margin-right: 0;
   margin-bottom: 1rem;
 }
 article blockquote::after{
