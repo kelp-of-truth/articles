@@ -1,1 +1,1 @@
-$$\frac{|ax_0+by_0+c|}{sqrt{a^2+b^2}}$$
+$$d = \frac{| ax_0 + by_0 + c |}{\sqrt{a^2 + b^2}}$$
