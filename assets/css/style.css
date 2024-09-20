@@ -108,6 +108,7 @@ article blockquote::after{
 #theme #option{
   height: 0px;
   overflow-y: hidden;
+  margin-top: 0.2rem;
   transition: 250ms;
 }
 #theme:hover #option{
