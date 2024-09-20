@@ -41,6 +41,10 @@
     let theme=0;
     const ls=localStorage.getItem("theme");
     function aplyTheme(n){
+      document.querySelector("#theme #option").style.pointerEvents="none";
+      setTimeout(() => {
+        document.querySelector("#theme #option").style.pointerEvents="all";
+      }, 250);
       theme=n;
       localStorage.setItem("theme",theme);
       const selected=document.querySelector("#theme #selected");
