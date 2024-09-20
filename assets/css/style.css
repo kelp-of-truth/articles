@@ -55,6 +55,9 @@ article h2 {
 article h3 {
   font-size: 1rem;
 }
+article img{
+  display: block;
+}
 article code{
   font-family: Inconsolata;
 }
