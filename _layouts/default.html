@@ -41,7 +41,6 @@
     let theme=0;
     const ls=localStorage.getItem("theme");
     function aplyTheme(n){
-      document.querySelector("#theme #option").style.height="0px";
       theme=n;
       localStorage.setItem("theme",theme);
       const selected=document.querySelector("#theme #selected");
@@ -71,8 +70,8 @@
       aplyTheme(0);
     }
     console.log(theme);
-    document.querySelector("#theme #system").addEventListener("click",()=>{aplyTheme(0)});
-    document.querySelector("#theme #light").addEventListener("click",()=>{aplyTheme(1)});
-    document.querySelector("#theme #dark").addEventListener("click",()=>{aplyTheme(2)});
+    document.querySelector("#theme #system").addEventListener("click",()=>{document.querySelector("#theme #option").style.height="0px";aplyTheme(0)});
+    document.querySelector("#theme #light").addEventListener("click",()=>{document.querySelector("#theme #option").style.height="0px";aplyTheme(1)});
+    document.querySelector("#theme #dark").addEventListener("click",()=>{document.querySelector("#theme #option").style.height="0px";aplyTheme(2)});
   </script>
 </html>
