@@ -53,10 +53,10 @@ _Italic_
 
 ---
 
-> Block quote
+> Blockquote
 
 ```md
-> Block quote
+> Blockquote
 ```
 
 ---
@@ -84,6 +84,12 @@ int main(void){
 |Title1|Title2|Title3|
 |:-:|:-|-:|
 |center|left|right|
+
+```md
+|Title1|Title2|Title3|
+|:-:|:-|-:|
+|center|left|right|
+```
 
 ---
 
