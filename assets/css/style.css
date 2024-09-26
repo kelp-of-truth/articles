@@ -97,6 +97,7 @@ article blockquote::after{
   vertical-align: middle;
   float: right;
   margin-right: 1rem;
+  margin-bottom: 1rem;
   padding: 0.2rem;
   background-color: #bfbfbf;
   border-radius: 0.4rem;
