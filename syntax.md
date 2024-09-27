@@ -1,3 +1,11 @@
+---
+layouts: default
+title: Syntax
+tags: 
+  - MarkDown
+  - GitHub
+---
+
 # Syntax
 <br>
 
