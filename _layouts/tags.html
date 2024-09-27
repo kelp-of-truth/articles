@@ -1,1 +1,6 @@
-{{ site.tags }}
+{% for tag_name in site.tags %}
+<h2>{{tag_name}}</h2>
+<ul>
+  {% for tag_site in site.tags[tag_name] %}
+  <li>{{tag_site}}</li>
+</ul>
