@@ -1,10 +1,9 @@
 {% for tag_name in site.tags %}
 <h2>{{tag_name}}</h2>
-
+{% endfor %}
 <ul>
   {% for tag_site in site.tags[tag_name] %}
   <li><a href="{{tag_site.url}}">{{tag_site.title}}</a></li>
   {% endfor %}
 </ul>
 
-{% endfor %}
