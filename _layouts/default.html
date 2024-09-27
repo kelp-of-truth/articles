@@ -30,7 +30,11 @@
       </div>
     </header>
     <article>
-      {{tags}}
+      <ul>
+      { % for tag in page.tags % }
+        <li>{{tag}}</li>
+      { % endfor % }
+      </ul>
       {{title}}
       {{content}}
     </article>
