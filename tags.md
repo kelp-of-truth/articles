@@ -1,3 +1,3 @@
 ---
-layouts: tags
+layout: tags
 ---
