@@ -1,0 +1,8 @@
+---
+layout: tags
+title: fuga
+tags: 
+  - kofuga
+  - fuga
+---
+フーガ
