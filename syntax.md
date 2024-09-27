@@ -6,9 +6,6 @@ tags:
   - GitHub
 ---
 
-# Syntax
-<br>
-
 # Head1
 ## Head2
 ### Head3
