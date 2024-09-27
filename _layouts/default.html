@@ -30,12 +30,12 @@
       </div>
     </header>
     <article>
+      <h1>{{title}}</h1>
       <ul>
       { % for tag in page.tags % }
         <li>{{tag}}</li>
       { % endfor % }
       </ul>
-      {{title}}
       {{content}}
     </article>
     <footer>
