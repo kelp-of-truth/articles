@@ -16,6 +16,7 @@ html,body,input,button,textarea,select{
   font-family: NotoSansJP;
 }
 header {
+  z-index: 9999999;
   position: fixed;
   margin: 0;
   height: 3rem;
