@@ -246,6 +246,10 @@ article blockquote::after{
     width: 60vw;
     margin-left: 20vw;
   }
+  header{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
   header .content{
     justify-content: left;
     margin-left: 10rem;
