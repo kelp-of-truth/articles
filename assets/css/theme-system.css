@@ -64,6 +64,13 @@ code {
   article a {
     color: #e2e2e2;
   }
+  #themes{
+  background-color: #080808;
+  color: #fff;
+}
+#themes button:hover{
+  background-color: #3c3c3c;
+}
   
 code {
   background-color: #212121 !important;
