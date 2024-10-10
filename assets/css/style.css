@@ -49,6 +49,7 @@ header {
   display: inline-block;
 }
 .header-nav{
+  color: inherit;
   list-style: none;
   display: none;
 }
