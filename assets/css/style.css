@@ -49,9 +49,11 @@ header {
   display: inline-block;
 }
 .header-nav{
-  color: inherit;
   list-style: none;
   display: none;
+}
+.header-nav a{
+  color: inherit;
 }
 .header-nav li{
   margin-left: 1rem;
