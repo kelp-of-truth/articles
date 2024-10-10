@@ -2,8 +2,8 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="/article/assets/css/style.css">
-    <link rel="stylesheet" id="css-theme" href="/article/assets/css/theme-system.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" id="css-theme" href="../assets/css/theme-system.css">
     <title>{{page.title}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -11,12 +11,28 @@
     <!-- and it's easy to individually load additional languages -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/languages/go.min.js"></script>
     <script>hljs.highlightAll();</script>
-    {% include head-custom.html %}
+    <!-- {% include head-custom.html %} -->
   </head>
   <body>
     <header>
-      <span class="title">Article</span>
-      <div style="position: absolute;top: 1.5rem;right: 0px;">
+      <div class="content">
+        <span class="title">KelpOfTruth</span>
+        <ul class="header-nav">
+          <li><a>Top</a></li>
+          <li><a>Articles</li>
+          <li><a>Tags</a></li>
+          <li><a>Contact</a></li>
+        </ul>
+      </div>
+      <button id="select-theme">
+        <img src="https://kelpoftruth.com/article/assets/img/system.svg" alt="System">
+      </button>
+      <ul id="themes">
+        <li><button id="system" class="selected"><img src="https://kelpoftruth.com/article/assets/img/system.svg" alt="System">System</button></li>
+        <li><button id="light"><img src="https://kelpoftruth.com/article/assets/img/light.svg" alt="Light ">Light</button></li>
+        <li><button id="dark"><img src="https://kelpoftruth.com/article/assets/img/dark.svg" alt="Dark">Dark</button></li>
+      </ul>
+      <!-- <div style="position: absolute;top: 1.5rem;right: 0px;"> -->
       <!--<div id="theme">
         <div id="selected">
           <button><img src="system.svg"><span>System</span></button>
@@ -46,34 +62,28 @@
       </p>
   </body>
   <script>
+    document.querySelector("#select-theme").addEventListener("click",()=>{
+      document.querySelector("#themes").style.display="flex";
+    })
     // 0: System 1: Light 2: Dark
     let theme=0;
     const ls=localStorage.getItem("theme");
     function aplyTheme(n){
-      document.querySelector("#theme #option").style.pointerEvents="none";
-      setTimeout(() => {
-        document.querySelector("#theme #option").style.pointerEvents="all";
-      }, 250);
+      document.querySelector("#themes").style.display="none";
       theme=n;
       localStorage.setItem("theme",theme);
-      const selected=document.querySelector("#theme #selected");
+      document.querySelectorAll("#themes button")[0].classList.remove("selected");
+      document.querySelectorAll("#themes button")[1].classList.remove("selected");
+      document.querySelectorAll("#themes button")[2].classList.remove("selected");
+      document.querySelectorAll("#themes button")[n].classList.add("selected");
       if(theme===0){
         document.querySelector("#css-theme").href="/article/assets/css/theme-system.css";
-        selected.querySelector("img").src="/article/assets/img/system.svg";
-        selected.querySelector("span").innerHTML="System";
-        
       }else
       if(theme===1){
         document.querySelector("#css-theme").href="/article/assets/css/theme-light.css";
-        selected.querySelector("img").src="/article/assets/img/light.svg";
-        selected.querySelector("span").innerHTML="Light";
-
       }else
       if(theme===2){
         document.querySelector("#css-theme").href="/article/assets/css/theme-dark.css";
-        selected.querySelector("img").src="/article/assets/img/dark.svg";
-        selected.querySelector("span").innerHTML="Dark";
-        
       }
     }
     if(ls!==null){
@@ -82,9 +92,8 @@
     }else{
       aplyTheme(0);
     }
-    console.log(theme);
-    document.querySelector("#theme #system").addEventListener("click",()=>{aplyTheme(0)});
-    document.querySelector("#theme #light").addEventListener("click",()=>{aplyTheme(1)});
-    document.querySelector("#theme #dark").addEventListener("click",()=>{aplyTheme(2)});
+    document.querySelector("#themes #system").addEventListener("click",()=>{aplyTheme(0)});
+    document.querySelector("#themes #light").addEventListener("click",()=>{aplyTheme(1)});
+    document.querySelector("#themes #dark").addEventListener("click",()=>{aplyTheme(2)});
   </script>
 </html>
