@@ -1,8 +1,9 @@
 @media (prefers-color-scheme: light) {
   header {
-    background-color: #f4f4f4;
+    background-color: #fff;
     color: #000;
     border-color: #e2e2e2;
+    box-shadow: 0px 0px 4px #000;
   }
   article {
     background-color: #fff;
@@ -46,9 +47,10 @@ code {
     background-color: #090909;
   }
   header {
-    background-color: #393939;
+    background-color: #000;
     color: #dfdfdf;
     border-color: #080808;
+    box-shadow: 0px 0px 4px #fff;
   }
   article {
     background-color: #090909;
