@@ -19,6 +19,14 @@
   article a {
     color: #1b1b1b;
   }
+  #tags a{
+    color: #000;
+    text-decoration: none;
+  }
+  #tags li{
+    background-color: #e8e8e8;
+    border-radius: 3px;
+  }
   #themes{
     background-color: #fff;
     color: #000;
