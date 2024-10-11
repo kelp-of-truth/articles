@@ -140,6 +140,7 @@ footer {
 article #tags{
   display: flex;
   list-style: none;
+  padding-left: 0;
 }
 article #tags li{
   margin-left: 0.5em;
