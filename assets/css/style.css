@@ -183,69 +183,9 @@ article blockquote::after{
   background-color: #b0b0b0;
   border-radius: calc(infinity * 1px);
 }
-#theme {
-  z-index: 99999;
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  float: right;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-  padding: 0.2rem;
-  background-color: #bfbfbf;
-  border-radius: 0.4rem;
-}
-#theme div{
-  border-radius: 0.2rem;
-  background-color: #bfbfbf;
-  position: fixed;
-  display: flex;
-  flex-wrap: wrap;
-  width: 7.3rem;
-  transition: 250ms;
-}
-#theme #option{
-  height: 0px;
-  overflow-y: hidden;
-  margin-top: 0.2rem;
-  transition: 250ms;
-}
-#theme:hover #option{
-  height: 6.9rem;
-}
-#theme #option button:hover{
-  background-color: #eeeeee;
-}
-#theme #option button:hover span{
-  color: #8a8a8a;
-}
-#theme button {
-  border-radius: 0.2rem;
-  width: 100%;
-  border: unset;
-  background-color: unset;
-  padding: 0.4rem;
-  display: flex;
-}
-#theme button span{
-  margin-top: 0.1rem;
-  margin-left: 0.4rem;
-  font-size: 1rem;
-  color: #555555;
-}
-#theme button img{
-  width: 1.5rem;
-  height: 1.5rem; 
-}
-#theme #selected{
-  position: relative;
-  background-color: #e0e0e0;
-}
-#theme #selected button span{
-  color: #7a7a7a !important;
-}
 @media screen and (min-width: 100vh){
   article{
+    padding-top: 3rem;
     width: 60vw;
     margin-left: 20vw;
   }
