@@ -145,6 +145,7 @@ article #tags{
 article #tags li{
   margin-left: 0.5em;
   margin-right: 0.5em;
+  padding: 0.2em;
 }
 article h1 {
   font-size: 1.7rem;
