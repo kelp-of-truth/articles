@@ -137,6 +137,14 @@ footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+article #tags{
+  display: flex;
+  list-style: none;
+}
+article #tags li{
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
 article h1 {
   font-size: 1.7rem;
   font-weight: 600;
