@@ -32,12 +32,13 @@
       </ul>
     </header>
     <article>
-      <h1>{{title}}</h1>
+      <h1>{{page.title}}</h1>
       <ul id="tags">
       {% for tag in page.tags %}
-        <li>{{tag}}</li>
+        <li><a href="https://kelpoftruth.com/article/tags?name={{tag}}</a></li>
       {% endfor %}
       </ul>
+      {{page.date}}
       {{content}}
     </article>
     <footer>
