@@ -75,6 +75,14 @@ code {
   article a {
     color: #e2e2e2;
   }
+  #tags a{
+    color: #fff;
+    text-decoration: none;
+  }
+  #tags li{
+    background-color: ##363636;
+    border-radius: 3px;
+  }
   #themes{
   background-color: #080808;
   color: #fff;
