@@ -20,12 +20,12 @@
     color: #1b1b1b;
   }
   #tags a{
-    color: #828282;
+    color: #545454;
     text-decoration: none;
   }
   #tags li{
     background-color: #e8e8e8;
-    border-radius: 3px;
+    border-radius: 5px;
   }
   #themes{
     background-color: #fff;
