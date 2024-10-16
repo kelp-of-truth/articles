@@ -78,6 +78,9 @@ code {
   article a {
     color: #e2e2e2;
   }
+  article .date{
+    color: #fff;
+  }
   #tags a{
     color: #fff;
     text-decoration: none;
