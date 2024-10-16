@@ -18,6 +18,9 @@ footer a {
 article a {
   color: #1b1b1b;
 }
+article .date{
+  color: #828282;
+}
   #tags a{
     color: #828282;
     text-decoration: none;
