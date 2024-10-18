@@ -147,6 +147,7 @@ article #tags li{
   margin-left: 0.5em;
   margin-right: 0.5em;
   padding: 0.3em;
+  line-height: 1em;
 }
 article #tags a{
   line-height: 1em;
