@@ -152,9 +152,11 @@ article #tags a{
   line-height: 1em;
 }
 article h1 {
-  scroll-margin: 2rem;
   font-size: 1.7rem;
   font-weight: 600;
+}
+article h1:not(.title){
+  scroll-margin-top: 3rem;
 }
 article h2 {
   font-size: 1.4rem;
