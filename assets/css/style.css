@@ -156,7 +156,7 @@ article h1 {
   font-weight: 600;
 }
 article h1:not(.title){
-  scroll-margin-top: 5rem;
+  scroll-margin-top: 10rem;
 }
 article h2 {
   font-size: 1.4rem;
