@@ -202,7 +202,7 @@ article blockquote::after{
 }
 @media screen and (min-width: 100vh){
   article{
-    padding-top: 3.5rem;
+    margin-top: 3.5rem;
     width: 50vw;
     margin-left: 20vw;
   }
