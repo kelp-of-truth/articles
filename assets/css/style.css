@@ -157,7 +157,7 @@ article h1 {
   font-weight: 600;
 }
 article h1+h1{
-  scroll-margin-top: 10rem;
+  scroll-margin-top: 15rem;
 }
 article h2 {
   font-size: 1.4rem;
