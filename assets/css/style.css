@@ -13,7 +13,6 @@
 html,
 body {
   line-height: 2em;
-  scroll-margin-block: 2.5rem;
   padding: 0px;
   margin: 0;
   font-size: 16px;
@@ -153,6 +152,7 @@ article #tags a{
   line-height: 1em;
 }
 article h1 {
+  scroll-margin: 2rem;
   font-size: 1.7rem;
   font-weight: 600;
 }
