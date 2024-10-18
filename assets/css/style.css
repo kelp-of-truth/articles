@@ -123,7 +123,7 @@ header {
   vertical-align: middle;
 }
 article {
-  padding-top: 2.5rem;
+  padding-top: 3rem;
   width: calc(100% - 3rem);
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -156,7 +156,7 @@ article h1 {
   font-weight: 600;
 }
 article h1:not(.title){
-  scroll-margin-top: 3rem;
+  scroll-margin-top: 5rem;
 }
 article h2 {
   font-size: 1.4rem;
@@ -202,7 +202,7 @@ article blockquote::after{
 }
 @media screen and (min-width: 100vh){
   article{
-    padding-top: 3rem;
+    padding-top: 3.5rem;
     width: 50vw;
     margin-left: 20vw;
   }
