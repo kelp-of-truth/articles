@@ -122,6 +122,8 @@ header {
   vertical-align: middle;
 }
 article {
+  scroll-padding: 2.5rem;
+  scroll-margin-top: 2.5rem;
   padding-top: 2.5rem;
   width: calc(100% - 3rem);
   padding-left: 1.5rem;
