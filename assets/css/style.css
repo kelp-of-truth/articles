@@ -13,8 +13,7 @@
 html,
 body {
   line-height: 2em;
-  scroll-padding: 2.5rem;
-  scroll-margin-top: 2.5rem;
+  scroll-margin-block: 2.5rem;
   padding: 0px;
   margin: 0;
   font-size: 16px;
