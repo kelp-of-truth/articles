@@ -12,6 +12,7 @@
 }
 html,
 body {
+  line-height: 2em;
   scroll-padding: 2.5rem;
   scroll-margin-top: 2.5rem;
   padding: 0px;
