@@ -139,7 +139,7 @@ footer {
   padding-bottom: 1rem;
 }
 article ifraem{
-  max-width: 100%;
+  max-width: 100% !important;
 }
 article #tags{
   display: flex;
@@ -160,7 +160,7 @@ article h1 {
   font-weight: 600;
 }
 article h1+h1{
-  scroll-padding: 15rem;
+  scroll-margin: 15rem;
 }
 article h2 {
   font-size: 1.4rem;
