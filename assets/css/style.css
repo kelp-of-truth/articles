@@ -158,7 +158,7 @@ article #tags a{
 article h1 {
   font-size: 1.7rem;
   font-weight: 600;
-  scroll-margin: 15rem;
+  scroll-margin: 3.5rem;
 }
 article h2 {
   font-size: 1.4rem;
@@ -218,5 +218,8 @@ article blockquote::after{
   }
   .header-nav{
     display: flex;
+  }
+  article h1{
+    scroll-margin: 6rem;
   }
 }
