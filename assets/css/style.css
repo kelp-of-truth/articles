@@ -140,7 +140,7 @@ footer {
 }
 article iframe[src*="youtube"]{
   aspect-ratio: 560/315;
-  max-width: 80% !important;
+  max-width: 100% !important;
   height: auto !important;
 }
 article #tags{
