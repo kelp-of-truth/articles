@@ -1,5 +1,14 @@
-{{date}}
-
+<html>
+  <head>
+    <title>タグ</title>
+    <meta charset="utf-8">
+    <style>
+      .post-by-tags div{
+        display: none;
+      }
+    </style>
+  </head>
+</html>
 {% assign tag_names = "" | split: "|"  %}
 
 {% for posts_by_tag in site.tags %}
@@ -11,8 +20,8 @@
 
 <section class="posts-by-tags">
   {% for tag_name in tag_names %}
-    <div>
-      <h2 id="tag_name">
+    <div id="{{tag_name}}">
+      <h2>
         {{ tag_name | capitalize | replace: "_", " " }}
       </h2>
 
@@ -24,3 +33,18 @@
     </div>
   {% endfor %}
 </section>
+<script>
+  const queryString = window.location.search;
+
+  const params = new URLSearchParams(queryString);
+
+  const paramValue = params.get('name');
+
+  if(paramValue===null){
+    for(let idx of document.querySelector(".post-by-tags div")){
+      idx.style.display: block;
+    }
+  }else{
+    document.querySelector(`.post-by-tags div#${paramValue}`).style.display: block;
+  }
+</script>
