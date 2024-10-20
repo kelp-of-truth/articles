@@ -3,7 +3,7 @@
     <title>タグ</title>
     <meta charset="utf-8">
     <style>
-      .post-by-tags div{
+      .posts-by-tags div{
         display: none;
       }
     </style>
@@ -41,10 +41,10 @@
   const paramValue = params.get('name');
 
   if(paramValue===null){
-    for(let idx of document.querySelector(".post-by-tags div")){
+    for(let idx of document.querySelector(".posts-by-tags div")){
       idx.style.display: block;
     }
   }else{
-    document.querySelector(`.post-by-tags div#${paramValue}`).style.display: block;
+    document.querySelector(`.posts-by-tags div#${paramValue}`).style.display: block;
   }
 </script>
