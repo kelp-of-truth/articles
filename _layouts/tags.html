@@ -24,12 +24,13 @@
       <h2>
         {{ tag_name | capitalize | replace: "_", " " }}
       </h2>
-
+      <ul>
       {% for post in site.tags[tag_name] %}
-        <a href="/article{{ post.url | prepend: baseurl }}">
+        <li><a href="/article{{ post.url | prepend: baseurl }}">
           {{ post.title }}
-        </a>
+        </a></li>
       {% endfor %}
+      </ul>
     </div>
   {% endfor %}
 </section>
