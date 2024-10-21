@@ -41,7 +41,7 @@
   const paramValue = params.get('name');
   if(paramValue===null){
     for(let idx of document.querySelectorAll(".posts-by-tags div")){
-      idx.style.display=block;
+      idx.style.display="block";
     }
   }else{
     document.querySelector(`.posts-by-tags div#${paramValue}`).style.display="block";
