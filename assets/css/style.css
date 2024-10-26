@@ -1,14 +1,17 @@
+/* Sans font */
 @font-face{
   font-family: NotoSansJP;
-  src: url("../fonts/NotoSans-Regular.ttf");
+  src: url("../fonts/NotoSansJP-VariableFont_wght.ttf");
 }
-@font-face{
-  font-family: Inconsolata;
-  src: url("../fonts/Inconsolata-Regular.ttf");
-}
+/* Serif font */
 @font-face{
   font-family: NotoSerifJP;
-  src: url("../fonts/NotoSerifJP-Regular.ttf");
+  src: url("../fonts/NotoSerifJP-VariableFont_wght.ttf"");
+}
+/* Mono font */
+@font-face{
+  font-family: Inconsolata;
+  src: url("../fonts/Inconsolata-VariableFont_wght.ttf"");
 }
 html,
 body {
