@@ -1,6 +1,4 @@
-```js
-let i=0;
-while(i<10){
-  i++;
-}
-```
+---
+title: 記事一覧
+layout: articles
+---
