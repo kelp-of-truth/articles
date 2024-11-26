@@ -1,17 +1,59 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
   <head>
     <title>記事一覧</title>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <style>
+      .articles li {
+        display: flex;
+        width: calc(300px + 1rem);
+        flex-wrap: wrap;
+        /* background-color: red; */
+        /* padding: 0.5rem; */
+        border: 1px solid #000;
+        border-radius: 5px;
+      }
+      .articles li a {
+        cursor: pointer;
+        text-decoration: none;
+      }
+      .articles li label {
+        color: #fff;
+        font-weight: bold;
+        cursor: inherit;
+        background-color: #505050;
+        padding: 0.5rem;
+        font-size: 18px;
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 300px;
+        height: fit-content;
+      }
+      .articles li p {
+        color: #3d3d3d;
+        font-size: 14px;
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 300px;
+        height: 3em;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        margin-left: 0.5em;
+      }
+    </style>
   </head>
   <body>
-    <ul>
+        <ul>
     {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
+      <p>{{ post.description }}</p>
     </li>
     {% endfor %}
     </ul>
   </body>
 </html>
+
