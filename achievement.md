@@ -3,6 +3,12 @@ layout: new_default
 title: Achievemnt
 ---
 
+<style>
+  article table th, article table td{
+    white-space: nowrap;
+  }
+</style>
+
 # Achievement
 
 |Title\Difficulity|Normal|Extra|Hard|Lunatic|<span title="No Miss No Bom Full SpellCard">Perfect</span>|
