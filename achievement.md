@@ -3,6 +3,8 @@ layout: new_default
 title: Achievemnt
 ---
 
+# Achievement
+
 |Title\Difficulity|Normal|Extra|Hard|Lunatic|<span title="No Miss No Bom Full SpellCard">Perfect</span>|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |**怪綺談**|魔梨沙|/|/|/|/|
