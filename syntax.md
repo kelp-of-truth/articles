@@ -1,5 +1,5 @@
 ---
-layouts: default
+layouts: new_default
 title: Syntax
 tags: 
   - MarkDown
@@ -105,3 +105,9 @@ int main(void){
 ```
 
 ---
+
+$$\LaTeX$$
+
+```md
+$$LaTeX$$
+```
