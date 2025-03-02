@@ -1,5 +1,5 @@
 ---
-layouts: new_default
+layout: new_default
 title: Syntax
 tags: 
   - MarkDown
