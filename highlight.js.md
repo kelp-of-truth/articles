@@ -1,7 +1,19 @@
+---
+layout: new_default
+---
+
 # highlight.js
 
 ```js
 console.log("Hello world!");
+```
+
+```py
+print("Hello world!")
+```
+
+```php
+echo("Hello world!")
 ```
 
 ```cpp
