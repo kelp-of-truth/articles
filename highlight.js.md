@@ -17,7 +17,7 @@ echo("Hello world!")
 ```
 
 ```cpp
-#include<bits/stdc++>
+#include<bits/stdc++.h>
 using namespace std;
 int main(void){
   cout<<"Hello world!"<<endl;
