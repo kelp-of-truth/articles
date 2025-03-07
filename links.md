@@ -1,5 +1,5 @@
 ---
-layout: new _default
+layout: new_default
 ---
 
 # Links
