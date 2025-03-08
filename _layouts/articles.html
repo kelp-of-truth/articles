@@ -56,7 +56,7 @@
     <ul class="articles">
     {% for post in site.posts %}
     <li>
-      <a href="/article{{ post.url | prepend: baseurl }}">
+      <a href="/articles{{ post.url | prepend: baseurl }}">
         <label>{{ post.title }}</label>
         <p>{{ post.description }}</p>
       </a>
