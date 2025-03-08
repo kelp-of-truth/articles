@@ -60,7 +60,16 @@
     </header>
     <main>
         <article>
-          {{content}}
+            <ul class="articles">
+            {% for post in site.posts %}
+            <li>
+                <a href="/article{{ post.url | prepend: baseurl }}">
+                <label>{{ post.title }}</label>
+                <p>{{ post.description }}</p>
+                </a>
+            </li>
+            {% endfor %}
+            </ul>
         </article>
         <footer>
             Email address : <a href="mailto:kelpoftruth@gmail.com">kelpoftruth@gmail.com</a><br>
