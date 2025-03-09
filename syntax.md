@@ -106,8 +106,8 @@ int main(void){
 
 ---
 
-$$\LaTeX$$
+$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 
 ```md
-$$LaTeX$$
+$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 ```
