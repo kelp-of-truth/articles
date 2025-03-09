@@ -1,4 +1,5 @@
 ---
+layout: new_default
 title: ブラウザのゲーム内告知にブラウザからアクセスができたと言う話
 tags:
   - ゲーム
