@@ -1,7 +1,3 @@
----
-layout: new_default
----
-
 # Links
 
 - [Achievement](./achievement)
