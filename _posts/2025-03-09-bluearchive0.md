@@ -1,5 +1,4 @@
 ---
-layout: new_default
 title: ブルアカのゲーム内告知にブラウザからアクセスができたと言う話
 tags:
   - ゲーム
