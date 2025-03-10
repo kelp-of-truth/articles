@@ -17,7 +17,7 @@
             <li>
                 <a href="/articles{{ post.url | prepend: baseurl }}">
                 <h1>{{ post.title }}</h1>
-                {% assign dates = {{page.date}} | split: " " %}
+                {% assign dates = {{post.date}} | split: " " %}
                 {% assign date_detail = {{dates[0]}} | split: "-" %}
                 <label class="date">{{date_detail[0]}}年{{date_detail[1]}}月{{date_detail[2]}}日</label>
                 <ul class="tags">
