@@ -1,5 +1,4 @@
 ---
-layout: new_default
 title: Achievemnt
 ---
 
@@ -8,8 +7,6 @@ title: Achievemnt
     white-space: nowrap;
   }
 </style>
-
-# Achievement
 
 |Title\Difficulity|Normal|Extra|Hard|Lunatic|<span title="No Miss No Bom Full SpellCard">Perfect</span>|
 |:--:|:--:|:--:|:--:|:--:|:--:|
