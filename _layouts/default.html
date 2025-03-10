@@ -14,7 +14,7 @@
             {% assign dates = {{page.date}} | split: " " %}
             <h1>{{page.title}}</h1>
             {% assign date_detail = {{dates[0]}} | split: "-" %}
-            <label class="date">{{date_detail[0}}年{{date_detail[1]}}月{{date_detail[2]}}日</label>
+            <label class="date">{{date_detail[0]}}年{{date_detail[1]}}月{{date_detail[2]}}日</label>
             <ul class="tags">
                 {% for tag in page.tags %}
                 <li class="tag"><a href="https://kelpoftruth.com/articles/tags?name={{tag}}">{{tag}}</a></li>
