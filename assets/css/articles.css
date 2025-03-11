@@ -4,6 +4,9 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 .articles li{
     width: 90%;
@@ -26,4 +29,9 @@
 }
 .articles li a span{
     font-size: 18px;
+}
+@media screen and (max-width: 100svh){
+    .articles li{
+        width: 80%;
+    }
 }
