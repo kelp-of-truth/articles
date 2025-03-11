@@ -33,5 +33,6 @@
 @media screen and (max-width: 100svh){
     .articles li{
         width: 80%;
+        margin: calc(10% - 15px);
     }
 }
