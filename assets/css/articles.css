@@ -1,4 +1,5 @@
-@charset "utf-8";
+margin-top: 0.5rem;
+  margin-bottom: 0.5rem;@charset "utf-8";
 
 .articles{
     list-style: none;
@@ -18,7 +19,7 @@
 .articles li a:hover{
     text-decoration: underline;
 }
-.articles li a h2{
+.articles li a h1{
     font-size: 25px;
     line-height: 1.5em;
     margin: 0;
