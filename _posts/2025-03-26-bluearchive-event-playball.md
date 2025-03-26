@@ -36,7 +36,7 @@ tags:
 <h3>3等賞</h3>
 <img alt="3等賞" src="https://kelpoftruth.com/articles/assets/media/zjR3nTCGXp9VV9Xt.png">
 
-</h3>2等賞<h3>
+<h3>2等賞</h3>
 <img alt="2等賞" src="https://kelpoftruth.com/articles/assets/media/cKJekpJyieiKmE4i.png">
 
 <h3>1等賞</h3>
