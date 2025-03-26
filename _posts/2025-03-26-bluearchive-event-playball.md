@@ -24,23 +24,23 @@ tags:
     報酬詳細
   </summary>
   
-### はずれ
-![はずれ](https://kelpoftruth.com/articles/assets/media/wcFYMnu3kE4tx4Nt.png)
+<h3>はずれ</h3>
+<img src="https://kelpoftruth.com/articles/assets/media/wcFYMnu3kE4tx4Nt.png" alt="はずれ">
 
-### 参加賞
-![参加賞](https://kelpoftruth.com/articles/assets/media/nPu54E5LQm5hzaKZ.png)
+<h3>参加賞</h3>
+<img alt="ラッキー賞" src="https://kelpoftruth.com/articles/assets/media/nPu54E5LQm5hzaKZ.png">
 
-### ラッキー賞
-![ラッキー賞](https://kelpoftruth.com/articles/assets/media/RaDmTSRZpE3E5m4p.png)
+<h3>ラッキー賞</h3>
+<img alt="ラッキー賞" src="https://kelpoftruth.com/articles/assets/media/RaDmTSRZpE3E5m4p.png">
 
-### 3等賞
-![3等賞](https://kelpoftruth.com/articles/assets/media/zjR3nTCGXp9VV9Xt.png)
+<h3>3等賞</h3>
+<img alt="3等賞" src="https://kelpoftruth.com/articles/assets/media/zjR3nTCGXp9VV9Xt.png">
 
-### 2等賞
-![2等賞](https://kelpoftruth.com/articles/assets/media/cKJekpJyieiKmE4i.png)
+</h3>2等賞<h3>
+<img alt="2等賞" src="https://kelpoftruth.com/articles/assets/media/cKJekpJyieiKmE4i.png">
 
-### 1等賞
-![1等賞](https://kelpoftruth.com/articles/assets/media/kUyzXhJSTs8FG3ty.png)
+<h3>1等賞</h3>
+<img alt="1等賞" src="https://kelpoftruth.com/articles/assets/media/kUyzXhJSTs8FG3ty.png">
 
 </details>
 
