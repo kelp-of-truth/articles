@@ -23,18 +23,25 @@ tags:
   <summary>
     報酬詳細
   </summary>
+  
 ### はずれ
 ![はずれ](https://kelpoftruth.com/articles/assets/media/wcFYMnu3kE4tx4Nt.png)
+
 ### 参加賞
 ![参加賞](https://kelpoftruth.com/articles/assets/media/nPu54E5LQm5hzaKZ.png)
+
 ### ラッキー賞
 ![ラッキー賞](https://kelpoftruth.com/articles/assets/media/RaDmTSRZpE3E5m4p.png)
+
 ### 3等賞
 ![3等賞](https://kelpoftruth.com/articles/assets/media/zjR3nTCGXp9VV9Xt.png)
+
 ### 2等賞
 ![2等賞](https://kelpoftruth.com/articles/assets/media/cKJekpJyieiKmE4i.png)
+
 ### 1等賞
 ![1等賞](https://kelpoftruth.com/articles/assets/media/kUyzXhJSTs8FG3ty.png)
+
 </details>
 
 ハズレ以外は賞によって1〜4個のカケラが貰えます。全体的に貰えるクレジットの量が多く、カケラも電脳の時と同じくらい貰えるのでかなりおいしいように感じます。
