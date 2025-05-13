@@ -11,9 +11,7 @@
       <description>{{ post.description }}</description>
       <published>{{ post.date }}</published>
       {% for tag in page.tags %}
-      <tag>
-        <name>{{tags}}</name>
-      </tag>
+      <tag>{{tag}}</tag>
       {% endfor %}
       </tags>
     </item>
