@@ -11,9 +11,8 @@
       <description>{{ post.description }}</description>
       <published>{{ post.date }}</published>
       {% for tag in page.tags %}
-      <tag>{{tag}}</tag>
+      <tag>{{ tag }}</tag>
       {% endfor %}
-      </tags>
     </item>
     {% endfor %}
   </channel>
