@@ -1,5 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss version='2.0'>
   <channel>
+    <title>記事一覧</title>
+    <link>https://kelpoftruth.com/articles/</link>
+    <description>記事一覧</description>
+    {% for post in site.posts %}
+    <item>
+      <title>{{ post.title }}</title>
+      <link>https://kelpoftruth.com/articles{{ post.url | prepend: baseurl }}</link>
+      <description>{{ post.description }}</description>
+      <published>{{ post.date }}</published>
+      {% for tag in page.tags %}
+      <tag>
+        <name>{{tags}}</name>
+      </tag>
+      {% endfor %}
+      </tags>
+    </item>
+    {% endfor %}
   </channel>
 </rss>
