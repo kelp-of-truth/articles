@@ -7,7 +7,7 @@
     {% for post in site.posts %}
     <item>
       <title>{{ post.title }}</title>
-      <link>https://kelpoftruth.com/articles{{ post.url | prepend: baseurl }}</link>
+      <link>https://kelpoftruth.com/articles{{ post.url | prepend: baseurl | replace_last: ".html", "" }}</link>
       <description>{{ post.description }}</description>
       <published>{{ post.date }}</published>
       {% for tag in post.tags %}
