@@ -19,7 +19,7 @@
     text-decoration: none;
 }
 .articles li a:hover{
-    /* text-decoration: underline; */
+    text-decoration: underline;
 }
 .articles li a h1{
     font-size: 25px;
