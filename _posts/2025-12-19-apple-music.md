@@ -4,7 +4,8 @@ tags:
   - Apple Music
   - 音楽
   - ソフトウェア
-description:
+date: 2025-12-19
+description: Windows版Apple Musicが使いづらすぎるので代替案を考えてみた。
 thumbnail: https://kelpoftruth.com/articles/assets/media/tnXSRrSrXowHbA2H.jpg
 ---
 
