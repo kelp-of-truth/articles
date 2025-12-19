@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 article{
-    font-size: 16px;
+    font-size: 18px;
 }
 article h1{
     font-size: 1.5em;
@@ -80,5 +80,8 @@ article code.hljs{
     main article img{
         max-width: 90%;
         margin: 5%;
+    }
+    article{
+        font-size: 16px;
     }
 }
