@@ -6,11 +6,11 @@ tags:
   - ブルアカ
 date: 2025-03-09
 description: ブルアカのゲーム内告知に、ブラウザからアクセスをすることができた。それだけ。
+thumbnail: https://kelpoftruth.com/articles/assets/media/e59jimr8xXeGUMZB.jpg
 ---
 
 ## ゲーム内告知にブラウザからアクセス
 ゲーム内告知(お知らせ)の挙動がWebページに似ていたので色々試してみたところブラウザからアクセスができた。
-![ゲーム内告知(お知らせ)](https://kelpoftruth.com/articles/assets/media/e59jimr8xXeGUMZB.jpg)
 
 <br>
 
