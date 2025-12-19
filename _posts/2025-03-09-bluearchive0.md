@@ -10,10 +10,7 @@ thumbnail: https://kelpoftruth.com/articles/assets/media/e59jimr8xXeGUMZB.jpg
 ---
 
 ## ゲーム内告知にブラウザからアクセス
-ゲーム内告知(お知らせ)の挙動がWebページに似ていたので色々試してみたところブラウザからアクセスができた。
-
-<br>
-
+ゲーム内告知(お知らせ)の挙動がWebページに似ていたので色々試してみたところブラウザからアクセスができた。<br>
 HTMLで書かれている。フォントはウェブフォントの[Kosugi Maru](https://fonts.google.com/specimen/Kosugi+Maru)。
 ![ブラウザからアクセスした告知ページ。簡単なHTMLで書かれている・](https://kelpoftruth.com/articles/assets/media/9DYaPri3Kw7bDD9b.png)
 ![文字のStyle。FontはKosugi Maruが使用されている。](https://kelpoftruth.com/articles/assets/media/QFfXb2xfyUUZMCnB.png)
