@@ -10,7 +10,7 @@ thumbnail: https://kelpoftruth.com/articles/assets/media/tnXSRrSrXowHbA2H.jpg
 ---
 
 ## 前置き
-まずAppleは自社OS以外のソフト開発がお粗末。特にWindows。iTunesもなかなかひどかったが、その代替として出てきたApple Musicはさらにひどい。UIは好みなのだが、如何せんバグが多い。そして重い。そんなわけでWindowsでApple Musicを聴く代替案をいくつか考えた。
+まずAppleは自社OS以外のソフト開発が雑。特にWindows。iTunesもなかなかひどかったが、その代替として出てきたApple Musicはさらにひどい。UIは好みなのだが、如何せんバグが多い。そして重い。そんなわけでWindowsでApple Musicを聴く代替案をいくつか考えた。
 
 ## 動作環境
 - OS: Windows10
