@@ -29,7 +29,7 @@ Web版は目立ったバグもなく、デスクトップ版よりも使いや�
 > [Appleメディアサービス利用規約](https://www.apple.com/legal/internet-services/itunes/jp/terms.html)
 
 ## Androidエミュレーター上で再生する
-かなり回りくどい手。だがこれくらいする価値はあるのかもしれない。
+かなり回りくどい手。だが個人的に気に入ってる方法でもあり、現在進行形で使っている。
 AndroidエミュレーターをWindowsにインストールし、Androidの仮想環境上でGoogle PlayからApple Musicをインストールして使う。
 この方法ならばハイレゾにも対応している[^1]。それに、バグまみれで重いデスクトップ版よりはAndroid版の方が使いやすい。
 問題点は、何かとWindowsとの互換性がないことだ。例えば、再生/停止をするのにエミュレータのウィンドウにいちいちフォーカスをしなければならない。
@@ -51,8 +51,8 @@ Noxは起動が遅い、MuMuは他ゲーで普段使いしているので除外�
 <br>
 
 ## そもそもApple Musicである必要
-そもそもApple Musicである必要はあるのか？ハイレゾ音源で聴きたいならAmazon Musicでもいいはずだ。(プライム会員なら980円で契約できるらしいし。)
-私はAmazon Musicユーザーではないため使用感はわからない。そこで、Windows版Amazon Musicをインストールし、少し触ってみたところロルバしだした。これはApple Musicよりもひどいかもしれない。
+そもそもApple Musicである必要はあるのか？ハイレゾで音楽を聴きたいのならばAmazon Musicでもいいはずだ。(プライム会員なら980円で契約できるらしいし。)
+私はAmazon Musicユーザーではないため使用感はわからない。そこで、Windows版Amazon Musicをインストールし、少し触ってみたところロルバが発生。これはApple Musicよりもひどいかもしれない。
 
 ## Throw away Windows
 Windows版を出してくれているだけAppleにも温情はあるのかもしれない。
