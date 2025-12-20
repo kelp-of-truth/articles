@@ -3,14 +3,12 @@
 .articles{
     list-style: none;
     padding: 0;
-    margin-top: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 .articles li{
     width: 90%;
-    margin: calc(5% - 15px);
     border: 1px solid var(--b-3);
     padding: 30px;
     border-radius: 15px;
@@ -26,7 +24,6 @@
     line-height: 1.5em;
     margin: 0;
     font-weight: bold;
-    height: 3em;
     width: 100%;
     display: -webkit-box;
     -webkit-box-orient: vertical;
