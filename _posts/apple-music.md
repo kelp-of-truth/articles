@@ -54,8 +54,9 @@ Noxは起動が遅い、MuMuは他ゲーで普段使いしているので除外�
 私は使ったことがないのでバグがあるかどうかとかはわからないが、Windows版Amazon Musicも存在している。そっちに乗り換えてみるのも手である。
 
 ## Throw away Windows
-Windowsなんかを使うのはやめてMacOSを使う。これならバグに悩まされる心配もない。なによりスタバでイキれる(ここ大事)。
-~~WindowsOSを選んだ時点でAppleから嫌がらせを受ける未来は確定していた。~~
+WindowsOS搭載のPCの使用をやめてMacBookを使う。これならバグに悩まされる心配もない。
+~~これがAppleの囲い込み戦略である。~~
+なによりスタバでイキれる(ここ大事)。
 
 ## まとめ
 |   | メリット | デメリット  |
@@ -84,4 +85,4 @@ Windowsなんかを使うのはやめてMacOSを使う。これならバグに�
 <br>
 
 [^1]: WaveSpectraを使用して検証。
-[^2]: 高音聞こえないオヤジにハイレゾ音源の意味はある？(https://pc.watch.impress.co.jp/docs/news/1083636.html)
+[^2]: [高音聞こえないオヤジにハイレゾ音源の意味はある？](https://pc.watch.impress.co.jp/docs/news/1083636.html)
