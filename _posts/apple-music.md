@@ -37,11 +37,11 @@ AndroidエミュレーターをWindowsにインストールし、Androidの仮�
 ## Androidエミュレータってどれがいいの？
 Windows上で動くAndroidエミュレータで私が知っているものだと、
 [NoxPlayer](https://jp.bignox.com/)、
-[BluStacks](https://www.bluestacks.com/ja/index.html)、
+[BlueStacks](https://www.bluestacks.com/ja/index.html)、
 [MuMuPlayer](https://www.mumuplayer.com/jp/)
 がある。
 Noxは起動が遅い、MuMuは他ゲーで普段使いしているので除外。よって消去法的にBluStacksを選んだ。
-ただ、消去法ではなくともBluStacksが無難だろう。起動構成はOSがAndroid11、メモリは4GB割り当てた。
+ただ、消去法ではなくともBlueStacksが無難だろう。起動構成はOSがAndroid11、メモリは4GB割り当てた。
 
 <br>
 
@@ -79,7 +79,7 @@ WindowsOS搭載のPCの使用をやめてMacBookを使う。これならバグ�
 <br>
 
 ## ハイレゾにこだわらなくてもいいよね
-人間の可聴範囲は広くても20~20kHzと言われている[^2]。（私も19~20kHzあたりから聞こえなくなってくる。）
+人間の可聴範囲は広くても20\~20kHzと言われている[^2]。（私も19\~20kHzあたりを超えると聞こえなくなってくる。）
 ハイレゾで96kHz出すことにこだわるのはロマンでしかないように思える。しかし、聞こえなくても効果はある[^2]らしいので全く無意味って訳でもなさそう。
 
 <br>
