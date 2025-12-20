@@ -83,6 +83,12 @@ article code.hljs{
     outline: 1px solid var(--b-4);
     border-radius: 10px;
 }
+li[role="doc-endnote"]{
+    font-size: 0.75em;
+    p{
+        line-height: 1em;
+    }
+}
 
 
 @media screen and (max-width: 100svh) {
