@@ -73,11 +73,11 @@ Windows版を出してくれているだけAppleにも温情はあるのかも�
 ハイレゾで96kHz出すことにこだわるのはロマンでしかないように思える。しかし、聞こえなくても効果はある[^2]らしいので全く無意味って訳でもなさそう。
 
 ## 参考
-- [聴覚 - Wikipedia](https://ja.wikipedia.org/wiki/%E8%81%B4%E8%A6%9A)
-- [高音聞こえないオヤジにハイレゾ音源の意味はある？](https://pc.watch.impress.co.jp/docs/news/1083636.html)
 - [Windows11にApple Music v1.4をインストールして使用してみた。](https://note.com/mellboard/n/nef64504cb7fd)
 - [Apple MusicをArch Linux上で動かしたいのでWaydroidを使う](https://note.com/ruka64/n/n0d0c3318db84)
 - [Appleメディアサービス利用規約](https://www.apple.com/legal/internet-services/itunes/jp/terms.html)
+- [聴覚 - Wikipedia](https://ja.wikipedia.org/wiki/%E8%81%B4%E8%A6%9A)
+- [高音聞こえないオヤジにハイレゾ音源の意味はある？](https://pc.watch.impress.co.jp/docs/news/1083636.html)
 
 
 <br>
