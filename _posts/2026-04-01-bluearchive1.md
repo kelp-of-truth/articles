@@ -18,7 +18,7 @@ thumbnail: https://assets.st-note.com/production/uploads/images/263586925/rectan
 
 ![](https://assets.st-note.com/img/1775016657-Oq7zoly5xdtwUNIrfpGAb0vZ.png?width=1200)
 
-<span style="text-aling:center;">最終順位は…8161位！！ <br> … <br> … <br> **8161位！？** <br> ![](https://assets.st-note.com/img/1775015957-G4YrWtPj9gMCfzdeB1kQ8Xiv.png)</span>
+<span style="text-align:center;">最終順位は…8161位！！ <br> … <br> … <br> **8161位！？** <br> ![](https://assets.st-note.com/img/1775015957-G4YrWtPj9gMCfzdeB1kQ8Xiv.png)</span>
 
 ## 言い訳
 
